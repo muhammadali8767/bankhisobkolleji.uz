@@ -1,6 +1,5 @@
 <?php
 	require_once('../lib/db.php');
-	require_once('../lib/user.php');
 	require_once('../lib/MySqlDb.php');
 	$Db = new MySqlDb(DB_HOST,DB_USER,DB_PASS,DB_NAME);      
 	if (!isset($_COOKIE['user']))
